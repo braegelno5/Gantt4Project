@@ -5,7 +5,7 @@ You are welcome to use this content as you wish.
 
 - Step 0: Goto Site Collection Administration
 - Step 1: Upload wsp file from bin to your sitecollection Solutions store
-    - you are able to get the wsp from [this repo's bin](Gantt4Project_git\Gantt4Project\bin) as RAW file
+    - you are able to get the wsp from [this repo's bin](Gantt4Project/bin) as RAW file
 - Step 2: Activate the solution in your solution store after uploading
 - Step 3: Goto Site collection features
 - Step 4: Activate the feature named 'Gantt4Project'

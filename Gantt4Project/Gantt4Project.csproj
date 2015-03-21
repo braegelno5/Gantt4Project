@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E5995E8-202A-49F4-B163-2321B487050C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gantt4Project</RootNamespace>
+    <AssemblyName>Gantt4Project</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>True</SandboxedSolution>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Gantt4Project.wsp" />
+    <None Include="Elements\Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{979e67ef-8bed-41c0-b742-cca5b9b60b7b}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\SiteFeature\SiteFeature.feature">
+      <FeatureId>{17bef1d3-9f80-4616-9ba2-6fd5ea8e2cb6}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Modules\Assets\Gantt4Project\teamwork-regular-webfont.eot" />
+    <None Include="Modules\Assets\Gantt4Project\teamwork-regular-webfont.otf" />
+    <None Include="Modules\Assets\Gantt4Project\teamwork-regular-webfont.ttf" />
+    <None Include="Modules\Assets\Gantt4Project\teamwork-regular-webfont.woff" />
+    <None Include="Modules\Assets\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{52f403a7-1459-47c2-a2b2-f7968903f53d}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{b7e37f21-3cb6-4247-b935-1505c296e97e}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="WebParts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0e048efd-4fb4-40b2-81a9-a367f848899d}</SharePointProjectItemId>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Elements\Scripts\Elements.xml" />
+    <Content Include="Features\SiteFeature\SiteFeature.Template.xml">
+      <DependentUpon>SiteFeature.feature</DependentUpon>
+    </Content>
+    <Content Include="Modules\Assets\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Modules\Assets\Gantt4Project\app.css" />
+    <Content Include="Modules\Assets\Gantt4Project\app.js" />
+    <Content Include="Modules\Assets\Gantt4Project\gantt.css" />
+    <Content Include="Modules\Assets\Gantt4Project\ganttDrawer.js" />
+    <Content Include="Modules\Assets\Gantt4Project\ganttDrawerSVG.js" />
+    <Content Include="Modules\Assets\Gantt4Project\ganttGridEditor.js" />
+    <Content Include="Modules\Assets\Gantt4Project\ganttMaster.js" />
+    <Content Include="Modules\Assets\Gantt4Project\ganttTask.js" />
+    <Content Include="Modules\Assets\Gantt4Project\ganttUtilities.js" />
+    <Content Include="Modules\Assets\Gantt4Project\res\Icon96.png" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\jquery-ui.min.js" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\jquery.min.js" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\date.js" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\dateField\images\next.png" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\dateField\images\prev.png" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\dateField\jquery.dateField.css" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\dateField\jquery.dateField.js" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\i18nJs.js" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\jquery.livequery.min.js" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\jquery.svg.css" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\jquery.svg.js" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\jquery.svg.min.js" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\jquery.svgdom.1.8.js" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\jquery.svgdom.js" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\jquery.svgdom.pack.js" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\jquery.timers.js" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\JST\jquery.JST.js" />
+    <Content Include="Modules\Assets\Gantt4Project\libs\platform.js" />
+    <Content Include="Modules\Assets\Gantt4Project\parts\EditProperties.html" />
+    <Content Include="Modules\Assets\Gantt4Project\parts\ViewGantt.html" />
+    <Content Include="Modules\Assets\Gantt4Project\platform.css" />
+    <Content Include="Modules\Assets\Gantt4Project\print.css" />
+    <Content Include="Modules\Assets\Gantt4Project\res\alert.gif" />
+    <Content Include="Modules\Assets\Gantt4Project\res\black_70.png" />
+    <Content Include="Modules\Assets\Gantt4Project\res\closeBig.png" />
+    <Content Include="Modules\Assets\Gantt4Project\res\hasExternalDeps.png" />
+    <Content Include="Modules\Assets\Gantt4Project\res\linkArrow.png" />
+    <Content Include="Modules\Assets\Gantt4Project\res\milestone.png" />
+    <Content Include="Modules\Assets\Gantt4Project\res\toggle-expand.png" />
+    <Content Include="Modules\Assets\Gantt4Project\res\toggle_collapse.png" />
+    <Content Include="Modules\Assets\Gantt4Project\res\twBanner.jpg" />
+    <Content Include="Modules\Assets\Gantt4Project\teamwork-regular-webfont.svg" />
+    <Content Include="WebParts\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="WebParts\Gantt4ProjectScript.webpart">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

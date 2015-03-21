@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Assets\" Type="ElementManifest" />
+    <ProjectItemFile Source="Gantt4Project\libs\date.js" Target="Assets\Gantt4Project\libs\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\i18nJs.js" Target="Assets\Gantt4Project\libs\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\jquery-ui.min.js" Target="Assets\Gantt4Project\libs\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\jquery.livequery.min.js" Target="Assets\Gantt4Project\libs\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\jquery.min.js" Target="Assets\Gantt4Project\libs\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\jquery.svg.css" Target="Assets\Gantt4Project\libs\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\jquery.svg.js" Target="Assets\Gantt4Project\libs\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\jquery.svg.min.js" Target="Assets\Gantt4Project\libs\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\jquery.svgdom.1.8.js" Target="Assets\Gantt4Project\libs\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\jquery.svgdom.js" Target="Assets\Gantt4Project\libs\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\jquery.svgdom.pack.js" Target="Assets\Gantt4Project\libs\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\jquery.timers.js" Target="Assets\Gantt4Project\libs\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\platform.js" Target="Assets\Gantt4Project\libs\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\dateField\jquery.dateField.css" Target="Assets\Gantt4Project\libs\dateField\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\dateField\jquery.dateField.js" Target="Assets\Gantt4Project\libs\dateField\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\dateField\images\next.png" Target="Assets\Gantt4Project\libs\dateField\images\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\dateField\images\prev.png" Target="Assets\Gantt4Project\libs\dateField\images\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\libs\JST\jquery.JST.js" Target="Assets\Gantt4Project\libs\JST\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\res\alert.gif" Target="Assets\Gantt4Project\res\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\res\black_70.png" Target="Assets\Gantt4Project\res\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\res\closeBig.png" Target="Assets\Gantt4Project\res\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\res\hasExternalDeps.png" Target="Assets\Gantt4Project\res\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\res\linkArrow.png" Target="Assets\Gantt4Project\res\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\res\milestone.png" Target="Assets\Gantt4Project\res\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\res\toggle-expand.png" Target="Assets\Gantt4Project\res\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\res\toggle_collapse.png" Target="Assets\Gantt4Project\res\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\res\twBanner.jpg" Target="Assets\Gantt4Project\res\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\res\Icon96.png" Target="Assets\Gantt4Project\res\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\gantt.css" Target="Assets\Gantt4Project\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\ganttDrawer.js" Target="Assets\Gantt4Project\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\ganttDrawerSVG.js" Target="Assets\Gantt4Project\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\ganttGridEditor.js" Target="Assets\Gantt4Project\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\ganttMaster.js" Target="Assets\Gantt4Project\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\ganttTask.js" Target="Assets\Gantt4Project\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\ganttUtilities.js" Target="Assets\Gantt4Project\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\platform.css" Target="Assets\Gantt4Project\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\print.css" Target="Assets\Gantt4Project\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\teamwork-regular-webfont.eot" Target="Assets\Gantt4Project\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\teamwork-regular-webfont.otf" Target="Assets\Gantt4Project\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\teamwork-regular-webfont.svg" Target="Assets\Gantt4Project\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\teamwork-regular-webfont.ttf" Target="Assets\Gantt4Project\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\teamwork-regular-webfont.woff" Target="Assets\Gantt4Project\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\parts\EditProperties.html" Target="Assets\Gantt4Project\parts\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\parts\ViewGantt.html" Target="Assets\Gantt4Project\parts\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\app.js" Target="Assets\Gantt4Project\" Type="ElementFile" />
+    <ProjectItemFile Source="Gantt4Project\app.css" Target="Assets\Gantt4Project\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

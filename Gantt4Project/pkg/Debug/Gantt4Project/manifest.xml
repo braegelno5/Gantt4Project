@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="b7e37f21-3cb6-4247-b935-1505c296e97e" Description="codeless Gantt Script Editor Web Part" SharePointProductVersion="15.0">
+  <FeatureManifests>
+    <FeatureManifest Location="Gantt4Project_SiteFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

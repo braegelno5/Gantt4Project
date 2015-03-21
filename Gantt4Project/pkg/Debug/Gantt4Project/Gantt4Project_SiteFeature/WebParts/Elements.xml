@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="WebParts" List="113" Url="_catalogs/wp" RootWebOnly="TRUE">
+    <File Path="WebParts\Gantt4ProjectScript.webpart" Url="Gantt4ProjectScript.webpart" >
+      <Property Name="Group" Value="SuTor" />
+    </File>
+  </Module>
+</Elements>

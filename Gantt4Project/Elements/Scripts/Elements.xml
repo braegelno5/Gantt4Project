@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/libs/jquery.min.js" Location="ScriptLink" Sequence="1501"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/libs/jquery-ui.min.js" Location="ScriptLink" Sequence="1502"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/libs/jquery.livequery.min.js" Location="ScriptLink" Sequence="1503"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/libs/jquery.timers.js" Location="ScriptLink" Sequence="1504"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/libs/platform.js" Location="ScriptLink" Sequence="1505"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/libs/date.js" Location="ScriptLink" Sequence="1506"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/libs/i18nJs.js" Location="ScriptLink" Sequence="1507"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/libs/dateField/jquery.dateField.js" Location="ScriptLink" Sequence="1508"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/libs/JST/jquery.JST.js" Location="ScriptLink" Sequence="1509"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/libs/jquery.svg.min.js" Location="ScriptLink" Sequence="1510"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/libs/jquery.svgdom.1.8.js" Location="ScriptLink" Sequence="1511"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/ganttUtilities.js" Location="ScriptLink" Sequence="1512"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/ganttTask.js" Location="ScriptLink" Sequence="1513"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/ganttDrawerSVG.js" Location="ScriptLink" Sequence="1514"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/ganttGridEditor.js" Location="ScriptLink" Sequence="1515"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/ganttMaster.js" Location="ScriptLink" Sequence="1516"/>
+  <CustomAction ScriptSrc="~site/_catalogs/masterpage/Gantt4Project/app.js" Location="ScriptLink" Sequence="1517"/>
+  <CustomAction ScriptBlock="document.write('&lt;link type=&quot;text/css&quot; rel=&quot;Stylesheet&quot; href=&quot;~site/_catalogs/masterpage/Gantt4Project/platform.css&quot; /&gt;');" Location="ScriptLink" Sequence="1518"/>
+  <CustomAction ScriptBlock="document.write('&lt;link type=&quot;text/css&quot; rel=&quot;Stylesheet&quot; href=&quot;~site/_catalogs/masterpage/Gantt4Project/libs/dateField/jquery.dateField.css&quot; /&gt;');" Location="ScriptLink" Sequence="1519"/>
+  <CustomAction ScriptBlock="document.write('&lt;link type=&quot;text/css&quot; rel=&quot;Stylesheet&quot; href=&quot;~site/_catalogs/masterpage/Gantt4Project/gantt.css&quot; /&gt;');" Location="ScriptLink" Sequence="1520"/>
+  <CustomAction ScriptBlock="document.write('&lt;link type=&quot;text/css&quot; rel=&quot;Stylesheet&quot; href=&quot;~site/_catalogs/masterpage/Gantt4Project/print.css&quot; /&gt;');" Location="ScriptLink" Sequence="1521"/>
+  <CustomAction ScriptBlock="document.write('&lt;link type=&quot;text/css&quot; rel=&quot;Stylesheet&quot; href=&quot;~site/_catalogs/masterpage/Gantt4Project/libs/jquery.svg.css&quot; /&gt;');" Location="ScriptLink" Sequence="1522"/>
+  <CustomAction ScriptBlock="document.write('&lt;link type=&quot;text/css&quot; rel=&quot;Stylesheet&quot; href=&quot;~site/_catalogs/masterpage/Gantt4Project/app.css&quot; /&gt;');" Location="ScriptLink" Sequence="1523"/>       
+</Elements>

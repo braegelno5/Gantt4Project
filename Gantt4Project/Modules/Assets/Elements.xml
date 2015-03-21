@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Assets" Url="_catalogs/masterpage" RootWebOnly="TRUE">
+    <File Path="Assets\Gantt4Project\libs\date.js" Url="Gantt4Project/libs/date.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\libs\i18nJs.js" Url="Gantt4Project/libs/i18nJs.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\libs\jquery-ui.min.js" Url="Gantt4Project/libs/jquery-ui.min.js" />
+    <File Path="Assets\Gantt4Project\libs\jquery.livequery.min.js" Url="Gantt4Project/libs/jquery.livequery.min.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\libs\jquery.min.js" Url="Gantt4Project/libs/jquery.min.js" />
+    <File Path="Assets\Gantt4Project\libs\jquery.svg.css" Url="Gantt4Project/libs/jquery.svg.css" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\libs\jquery.svg.js" Url="Gantt4Project/libs/jquery.svg.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\libs\jquery.svg.min.js" Url="Gantt4Project/libs/jquery.svg.min.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\libs\jquery.svgdom.1.8.js" Url="Gantt4Project/libs/jquery.svgdom.1.8.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\libs\jquery.svgdom.js" Url="Gantt4Project/libs/jquery.svgdom.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\libs\jquery.svgdom.pack.js" Url="Gantt4Project/libs/jquery.svgdom.pack.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\libs\jquery.timers.js" Url="Gantt4Project/libs/jquery.timers.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\libs\platform.js" Url="Gantt4Project/libs/platform.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\libs\dateField\jquery.dateField.css" Url="Gantt4Project/libs/dateField/jquery.dateField.css" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\libs\dateField\jquery.dateField.js" Url="Gantt4Project/libs/dateField/jquery.dateField.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\libs\dateField\images\next.png" Url="Gantt4Project/libs/dateField/images/next.png" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\libs\dateField\images\prev.png" Url="Gantt4Project/libs/dateField/images/prev.png" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\libs\JST\jquery.JST.js" Url="Gantt4Project/libs/JST/jquery.JST.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\res\alert.gif" Url="Gantt4Project/res/alert.gif" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\res\black_70.png" Url="Gantt4Project/res/black_70.png" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\res\closeBig.png" Url="Gantt4Project/res/closeBig.png" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\res\hasExternalDeps.png" Url="Gantt4Project/res/hasExternalDeps.png" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\res\linkArrow.png" Url="Gantt4Project/res/linkArrow.png" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\res\milestone.png" Url="Gantt4Project/res/milestone.png" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\res\toggle-expand.png" Url="Gantt4Project/res/toggle-expand.png" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\res\toggle_collapse.png" Url="Gantt4Project/res/toggle_collapse.png" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\res\twBanner.jpg" Url="Gantt4Project/res/twBanner.jpg" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\res\Icon96.png" Url="Gantt4Project/res/Icon96.png" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\gantt.css" Url="Gantt4Project/gantt.css" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\ganttDrawer.js" Url="Gantt4Project/ganttDrawer.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\ganttDrawerSVG.js" Url="Gantt4Project/ganttDrawerSVG.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\ganttGridEditor.js" Url="Gantt4Project/ganttGridEditor.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\ganttMaster.js" Url="Gantt4Project/ganttMaster.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\ganttTask.js" Url="Gantt4Project/ganttTask.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\ganttUtilities.js" Url="Gantt4Project/ganttUtilities.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\platform.css" Url="Gantt4Project/platform.css" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\print.css" Url="Gantt4Project/print.css" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\teamwork-regular-webfont.eot" Url="Gantt4Project/teamwork-regular-webfont.eot" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\teamwork-regular-webfont.otf" Url="Gantt4Project/teamwork-regular-webfont.otf" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\teamwork-regular-webfont.svg" Url="Gantt4Project/teamwork-regular-webfont.svg" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\teamwork-regular-webfont.ttf" Url="Gantt4Project/teamwork-regular-webfont.ttf" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\teamwork-regular-webfont.woff" Url="Gantt4Project/teamwork-regular-webfont.woff" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\parts\EditProperties.html" Url="Gantt4Project/part/EditProperties.html" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\parts\ViewGantt.html" Url="Gantt4Project/part/ViewGantt.html" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\app.js" Url="Gantt4Project/app.js" Type="GhostableInLibrary" />
+    <File Path="Assets\Gantt4Project\app.css" Url="Gantt4Project/app.css" Type="GhostableInLibrary" />
+  </Module>
+</Elements>

@@ -1,0 +1,21 @@
+﻿.resEdit {
+    padding: 15px;
+  }
+
+.resLine {
+width: 95%;
+padding: 3px;   
+margin: 5px;
+border: 1px solid #d0d0d0;
+}
+
+body {
+overflow: hidden;
+}
+
+.ganttButtonBar h1{
+color: #000000;
+font-weight: bold;
+font-size: 28px;
+margin-left: 10px;
+}

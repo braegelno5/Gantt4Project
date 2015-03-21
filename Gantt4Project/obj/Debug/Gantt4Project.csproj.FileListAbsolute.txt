@@ -1,0 +1,10 @@
+C:\VsProjects\Gantt4Project\Gantt4Project\obj\Debug\Gantt4Project.dll
+C:\VsProjects\Gantt4Project\Gantt4Project\obj\Debug\Gantt4Project.pdb
+C:\VsProjects\Gantt4Project\Gantt4Project\bin\Gantt4Project.dll
+C:\VsProjects\Gantt4Project\Gantt4Project\bin\Gantt4Project.pdb
+C:\VsProjects\Gantt4Project\Gantt4Project\obj\Debug\Gantt4Project.csprojResolveAssemblyReference.cache
+C:\VsProjects\Gantt4Project_git\Gantt4Project\bin\Gantt4Project.dll
+C:\VsProjects\Gantt4Project_git\Gantt4Project\bin\Gantt4Project.pdb
+C:\VsProjects\Gantt4Project_git\Gantt4Project\obj\Debug\Gantt4Project.csprojResolveAssemblyReference.cache
+C:\VsProjects\Gantt4Project_git\Gantt4Project\obj\Debug\Gantt4Project.dll
+C:\VsProjects\Gantt4Project_git\Gantt4Project\obj\Debug\Gantt4Project.pdb

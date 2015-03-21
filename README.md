@@ -1,7 +1,9 @@
-# Gantt4Project
+Gantt4Project
 ===============
 This GitHub repo houses all of the content for the Gantt4Project SharePoint ScriptEditorWebPart. 
 You are welcome to use this content as you wish.
+
+If you will check only this codeless sandboxed solution on your O365 or SPonPrem you are free to follow this steps:
 
 - Step 0: Goto Site Collection Administration
 - Step 1: Upload wsp file from bin to your sitecollection Solutions store

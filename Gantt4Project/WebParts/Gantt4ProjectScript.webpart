@@ -17,17 +17,17 @@
 </script>
 
 <script type="text/javascript">
-  var ganttServerRelativeUrl = "//" + window.location.host + _spPageContextInfo.siteServerRelativeUrl;
+  var ganttServerRelativeUrl = "//" + window.location.host + (_spPageContextInfo.siteServerRelativeUrl.substr(-1) === "/" ? "" : _spPageContextInfo.siteServerRelativeUrl);
   function loadjscssfile(filename, filetype, media) {
       if (filetype == "js") {
           var fileref = document.createElement('script');
           fileref.setAttribute("type", "text/javascript");
-          fileref.setAttribute("src", filename);
+          fileref.setAttribute("src", ganttServerRelativeUrl + filename);
       } else if (filetype == "css") {
           var fileref = document.createElement("link");
           fileref.setAttribute("rel", "stylesheet");
           fileref.setAttribute("type", "text/css");
-          fileref.setAttribute("href", filename);
+          fileref.setAttribute("href", ganttServerRelativeUrl + filename);
           if (typeof media !== "undefined") fileref.setAttribute("media", media);
       }
       if (typeof fileref !== "undefined") document.getElementsByTagName("head")[0].appendChild(fileref);

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b7e37f21-3cb6-4247-b935-1505c296e97e" solutionId="b7e37f21-3cb6-4247-b935-1505c296e97e" resetWebServer="false" description="codeless Gantt Script Editor Web Part" sharePointProductVersion="15.0" name="Gantt4Project" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b7e37f21-3cb6-4247-b935-1505c296e97e" solutionId="b7e37f21-3cb6-4247-b935-1505c296e97e" resetWebServer="false" title="Gantt Script Web Part" description="codeless Gantt Script Editor Web Part" sharePointProductVersion="15.0" name="Gantt4Project" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <features>
     <featureReference itemId="17bef1d3-9f80-4616-9ba2-6fd5ea8e2cb6" />
   </features>

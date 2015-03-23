@@ -17,31 +17,45 @@
 </script>
 
 <script type="text/javascript">
-  var ganttServerRelativeUrl = window.location.protocol + "//" + window.location.host + _spPageContextInfo.siteServerRelativeUrl;
+  var ganttServerRelativeUrl = "//" + window.location.host + _spPageContextInfo.siteServerRelativeUrl;
+  function loadjscssfile(filename, filetype, media) {
+      if (filetype == "js") {
+          var fileref = document.createElement('script');
+          fileref.setAttribute("type", "text/javascript");
+          fileref.setAttribute("src", filename);
+      } else if (filetype == "css") {
+          var fileref = document.createElement("link");
+          fileref.setAttribute("rel", "stylesheet");
+          fileref.setAttribute("type", "text/css");
+          fileref.setAttribute("href", filename);
+          if (typeof media !== "undefined") fileref.setAttribute("media", media);
+      }
+      if (typeof fileref !== "undefined") document.getElementsByTagName("head")[0].appendChild(fileref);
+  }
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/platform.css", "css");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/libs/dateField/jquery.dateField.css", "css");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/gantt.css", "css");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/print.css", "css", "print");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/libs/jquery.min.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/libs/jquery-ui.min.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/libs/jquery.livequery.min.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/libs/jquery.timers.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/libs/platform.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/libs/date.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/libs/i18nJs.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/libs/dateField/jquery.dateField.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/libs/JST/jquery.JST.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/libs/jquery.svg.css", "css");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/libs/jquery.svg.min.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/libs/jquery.svgdom.1.8.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/ganttUtilities.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/ganttTask.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/ganttDrawerSVG.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/ganttGridEditor.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/ganttMaster.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/app.js", "js");
+  loadjscssfile("/_catalogs/masterpage/Gantt4Project/app.css", "css");
 </script>
-<link rel=stylesheet href="/_catalogs/masterpage/Gantt4Project/platform.css" type="text/css">
-<link rel=stylesheet href="/_catalogs/masterpage/Gantt4Project/libs/dateField/jquery.dateField.css" type="text/css">
-<link rel=stylesheet href="/_catalogs/masterpage/Gantt4Project/gantt.css" type="text/css">
-<link rel=stylesheet href="/_catalogs/masterpage/Gantt4Project/print.css" type="text/css" media="print">
-<script src="/_catalogs/masterpage/Gantt4Project/libs/jquery.min.js"></script>
-<script src="/_catalogs/masterpage/Gantt4Project/libs/jquery-ui.min.js"></script>
-<script src="/_catalogs/masterpage/Gantt4Project/libs/jquery.livequery.min.js"></script>
-<script src="/_catalogs/masterpage/Gantt4Project/libs/jquery.timers.js"></script>
-<script src="/_catalogs/masterpage/Gantt4Project/libs/platform.js"></script>
-<script src="/_catalogs/masterpage/Gantt4Project/libs/date.js"></script>
-<script src="/_catalogs/masterpage/Gantt4Project/libs/i18nJs.js"></script>
-<script src="/_catalogs/masterpage/Gantt4Project/libs/dateField/jquery.dateField.js"></script>
-<script src="/_catalogs/masterpage/Gantt4Project/libs/JST/jquery.JST.js"></script>
-<link rel="stylesheet" type="text/css" href="/_catalogs/masterpage/Gantt4Project/libs/jquery.svg.css">
-<script type="text/javascript" src="/_catalogs/masterpage/Gantt4Project/libs/jquery.svg.min.js"></script>
-<script type="text/javascript" src="/_catalogs/masterpage/Gantt4Project/libs/jquery.svgdom.1.8.js"></script>
-<script src="/_catalogs/masterpage/Gantt4Project/ganttUtilities.js"></script>
-<script src="/_catalogs/masterpage/Gantt4Project/ganttTask.js"></script>
-<script src="/_catalogs/masterpage/Gantt4Project/ganttDrawerSVG.js"></script>
-<script src="/_catalogs/masterpage/Gantt4Project/ganttGridEditor.js"></script>
-<script src="/_catalogs/masterpage/Gantt4Project/ganttMaster.js"></script>
-<script src="/_catalogs/masterpage/Gantt4Project/app.js"></script> 
-<link rel="stylesheet" type="text/css" href="/_catalogs/masterpage/Gantt4Project/app.css">
 
 <div id="ganttWorkSpace" style="padding:0; overflow-y:auto; overflow-x:hidden;border:1px solid #e5e5e5;position:relative;margin:0 5px"></div>
 
@@ -241,8 +255,7 @@
     <div style="text-align: right; padding-top: 20px"><button type="button" id="resSaveButton" class="button big">save</button></div>
   </div>
   --></div>
-
-
+  
   <div class="__template__" type="RESOURCE_ROW"><!--
   <tr resId="(#=obj.id#)" class="resRow" >
     <td ><input type="text" name="name" value="(#=obj.name#)" style="width:100%;" class="formElements"></td>

@@ -24,7 +24,7 @@ If you will check only this codeless sandboxed solution on your O365 or SPonPrem
 ![ScreenShot](gantt4project.JPG)
 
 The web part is at his time not really for production.
-We do not change the server, which prevent future updates from MS.
+We do not change something on the server, wich would be possible to do over the UI, so we not prevent future updates from MS.
 
 - 20150323 bug fixed: not working on sites with managed path  
  
